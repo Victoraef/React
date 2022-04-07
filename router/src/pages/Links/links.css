@@ -1,0 +1,74 @@
+ 
+ .Links-container{
+     max-width: 1120px;
+     margin: 32px auto 0 auto ;
+ }
+
+ .Links-header{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .Links-header svg{
+     margin-right: 35px;     
+ }
+
+ .Links-header h1{
+     color: rgb(37, 35, 35);
+     font-size: large;
+ }
+
+ .Links-item{
+     width: 700px;
+     display: flex;
+     align-items: center;     
+     flex-direction: row;
+     margin-top: 8px;
+    
+ }
+
+ .Links-item last-child{
+     margin-bottom: 18px;     
+ }
+
+ .Link{
+     border: 0;
+     width: 100%;
+     min-width: 80%;
+     border-radius: 4px;
+     height: 46px;
+     background-color: rgb(136, 100, 100);
+     margin-right: 14px;
+     display: flex;
+     align-items: center;
+     padding: 0 14px;
+     font-size: 18px;
+     color: rgb(93, 176, 248);
+ }
+
+ .Link svg{
+    margin-right: 14px;
+}
+
+ .Link-delete{
+    border: 0;
+    background: transparent;
+}
+
+@media (max-width: 715px){
+    .Links-container{
+        width: 98%;        
+    }
+
+    .Logo h1{
+        font-size:  40px;
+    }
+
+    .Links-item{
+        width: 100%;
+    }
+
+    .Link{
+        width: 100%;
+    }
+}
